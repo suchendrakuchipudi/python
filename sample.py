@@ -52,3 +52,5 @@ class TestClass(object):
 
 
     my_first_method()
+    my_second_method()
+
