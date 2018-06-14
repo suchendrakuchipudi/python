@@ -29,8 +29,6 @@ class TestClass(object):
                 j.append(i+k)
         print j
 
-     
-
     @staticmethod
     def json_to_csv(json_file_path, outfile_path):
         """Convert a file containing a list of flat JSON objects to a csv.
