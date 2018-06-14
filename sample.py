@@ -28,6 +28,13 @@ class TestClass(object):
                 j.append(i+k)
         print j
 
+   
+     def my_second_method():
+        j = []
+        k=10
+        for i in range(1, 100):
+                j.append(i-k)
+        print j
 
     def json_to_csv(self, json_file_path, outfile_path):
         """Convert a file containing a list of flat JSON objects to a csv.
@@ -45,3 +52,4 @@ class TestClass(object):
 
 
     my_first_method()
+    my_second_method()
