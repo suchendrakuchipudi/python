@@ -28,7 +28,6 @@ class TestClass(object):
                 j.append(i+k)
         print j
 
-   
      def my_second_method():
         j = []
         k=10
