@@ -50,6 +50,3 @@ class TestClass(object):
                 writer.writerow(item.values())
 
 
-    my_first_method()
-    my_second_method()
-
