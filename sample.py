@@ -29,12 +29,7 @@ class TestClass(object):
                 j.append(i+k)
         print j
 
-     def my_second_method():
-        j = []
-        k=10
-        for i in range(1, 100):
-                j.append(i-k)
-        print j
+     
 
     @staticmethod
     def json_to_csv(json_file_path, outfile_path):
